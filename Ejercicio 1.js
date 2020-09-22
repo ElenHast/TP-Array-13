@@ -1,4 +1,4 @@
-/* Considerando que se tiene un array de números (Por ej: [5,9,0,-5,9,7,63,...]).
+/* 1 Considerando que se tiene un array de números (Por ej: [5,9,0,-5,9,7,63,...]).
 Usted debe:
 ● Realizar una función que imprima la posición de aquellos números que
 son iguales a 0 */
@@ -23,7 +23,7 @@ primer elemento negativo. Si no hay ningún componente negativo
 deberá devolver 0. */
 let items = [0,1,2,-3,4,5,6,-7,8,9,10,-11,12,13,14,15];
 for (var i = 0; i < items.length; i++) {
-  if (Math.sign(items[i]) == -1) {
+  if (Math.sign(items[i]) == -1) { // Me falta que devuelva 0 si no hay ningno negativo
     console.log("La posicion del indice negativo es ", i);
   }
 }
