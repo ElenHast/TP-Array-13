@@ -23,15 +23,9 @@ contenido sea múltiplo de 3.
       multiplo = 3 * i;
       limite++;
     }
-    //Comienza la comparacion
-    limite = 0;
-    let index = 0;
-    let coincidencias = [];
-    while (limite < 21) {
-      if (items[index] == multiplos3) {
-        coincidencias.push(items[index])
-      }
-      limite++;
+   //Comienza la comparacion
+   let coincidencias = items.filter(element => multiplos3.includes(element));
+   return console.log("Coincidencias "+ coincidencias);
     } return console.log("Coincidencias "+ coincidencias);
  }
 
