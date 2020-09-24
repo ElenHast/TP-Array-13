@@ -25,7 +25,6 @@ contenido sea múltiplo de 3.
     }
    //Comienza la comparacion
    let coincidencias = items.filter(element => multiplos3.includes(element));
-   return console.log("Coincidencias "+ coincidencias);
     } return console.log("Coincidencias "+ coincidencias);
  }
 
